@@ -3,53 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurant Menu</title>
+    <title>View Our Menu</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             background-color: #f8f8f8;
+            padding: 50px;
         }
-        .menu-container {
-            max-width: 600px;
-            margin: 20px auto;
+        .container {
             background: white;
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            display: inline-block;
         }
-        h1 {
-            color: #333;
-        }
-        .menu-item {
-            display: flex;
-            justify-content: space-between;
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }
-        .menu-item:last-child {
-            border-bottom: none;
+        a {
+            text-decoration: none;
+            color: white;
+            background: #007BFF;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-size: 18px;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
-    <div class="menu-container">
-        <h1>Our Menu</h1>
-        <div class="menu-item">
-            <span>🍕 Pizza</span> <span>$10</span>
-        </div>
-        <div class="menu-item">
-            <span>🍔 Burger</span> <span>$5</span>
-        </div>
-        <div class="menu-item">
-            <span>🍝 Pasta</span> <span>$8</span>
-        </div>
-        <div class="menu-item">
-            <span>🥗 Salad</span> <span>$6</span>
-        </div>
-        <div class="menu-item">
-            <span>🥤 Soft Drink</span> <span>$2</span>
-        </div>
+    <div class="container">
+        <h1>📜 Our Menu (March 2025)</h1>
+        <p>Click below to view or download our latest menu:</p>
+        <a href="Menu%20March%202025.pdf" target="_blank">View Menu 📂</a>
     </div>
 </body>
 </html>
